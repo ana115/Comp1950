@@ -1,0 +1,369 @@
+
+/* A00960170 JaeHoon Pang Assignment 6 */
+/* fonts */
+@font-face{
+    font-family: MN;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face{
+    font-family: MB;
+    src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face{
+    font-family: MR;
+    src: url(../fonts/Montserrat-Hairline.otf);
+
+}
+
+/* html selecters */
+html, body{
+    font-family: MN;
+    font-size: 11pt;
+    color:black
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: MB;
+    line-height:125%;
+}
+
+h1{
+    font-family:MB;
+    font-size:36pt;
+    color:#334157;
+}
+
+h2 {
+    font-family:MB;
+    font-size:28pt;
+    color: #3B342E;
+}
+
+h3 {
+    font-family:MN;
+    font-size:20pt;
+    color: yellowgreen;
+}
+
+h5 {
+    font-style: normal;
+    font-size: 16pt;
+    color:slategrey;
+    padding-bottom:5px;
+}
+
+h6 {
+    font-style: normal;
+    font-size: 14pt;
+    color: #3B342E;
+    padding-bottom:5px;
+}
+
+header{
+    z-index:1;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-color: ghostwhite;
+    width:100%;
+    height:80px;
+    border-bottom:4px solid #DCDCE2;
+}
+
+nav{
+    float:right;
+    padding:30px;
+}
+nav ul li
+{
+    display: inline;
+
+}
+nav ul li a{
+    padding:20px;
+    text-decoration: none;
+    color:darkslategray;
+    transition: background-color 0.3s ease-in;
+}
+
+nav ul li a:hover{
+    color:white;
+    background-color:darkslategray;
+}
+
+main{
+    padding-top:80px;
+}
+/*   html selecter  */
+/*                  */
+/**  footer         */
+footer{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:#16313F;
+    border-top:5px solid #0B2634;
+    color:#435F6E;
+}
+footer .foo-top{
+    padding:2%;
+    text-align: center;
+}
+footer .foo-top ul {
+    list-style-type: none;
+}
+footer .foo-top > ul > li:first-child{
+    font-size:18pt;
+    color:#C0DAE7;
+}
+footer .foo-top > ul > li:nth-child(2){
+    font-size:10pt;
+    color:#435F6E;
+    padding-bottom:10px;
+}
+footer .foo-top > ul > li:nth-child(3){
+    font-size:12pt;
+    color:#6E899A;
+    padding-bottom:10px;
+}
+footer .foo-top > ul> li:nth-child(4){
+    padding-bottom:20px;
+}
+footer .foo-top ul ul li{
+    display: inline;
+    font-size:9pt;
+    padding:5px;
+}
+footer .foo-top ul ul li a{
+    text-decoration: none;
+    background-color:#0B2634;
+    border: 1px solid #435F6E;
+    border-radius: 5px;
+    padding:6px;
+    transition: background-color .3s ease-in;
+}
+footer .foo-top ul ul li:first-child a{
+    color:#597AC7;
+}
+footer .foo-top ul ul li:nth-child(2) a{
+    color:#5BBCEC;
+}
+footer .foo-top ul ul li:nth-child(3) a{
+    color:#90C9DC;
+}
+footer .foo-top ul ul li a:hover{
+    text-decoration: none;
+    color:#0B2634;
+    background-color:#DCDCE2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:6px;
+}
+footer .foo-top > ul > li:last-child{
+    font-size:11pt;
+    color:#6E899A;
+    padding-top:10px;
+}
+/*   html selecter  */
+/*                  */
+/**  footer         */
+footer .foo-bottom{
+    color:#fff;
+    padding:2%;
+    text-align:center;
+}
+footer .foo-bottom ul{
+    list-style-type: none;
+}
+footer .foo-bottom ul li{
+    font-size:14pt;
+    color: #C0DAE7;
+}
+footer .foo-bottom ul ul{
+
+}
+footer .foo-bottom ul ul li{
+    display: inline;
+    padding: 5px;
+}
+footer .foo-bottom ul ul li a{
+    text-decoration: none;
+    font-size:9pt;
+    padding:5px;
+    border-radius: 5px;
+    color:#6E899A;
+    transition: background-color .3s ease-in;
+}
+footer .foo-bottom ul ul li a:hover{
+    color:snow;
+    background-color: #6E899A;
+    padding:5px;
+}
+
+/* class          */
+.logo-section{
+    float:left;
+    color:dimgrey;
+    margin:10px;
+
+}
+.logo-left{
+    float:left;
+    padding:5px;
+}
+
+.logo-right{
+    font-family: MB;
+    font-size:16pt;
+    padding-top:20px;
+    float:left;
+}
+/***** section class */
+.content-1{
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: white;
+    border-bottom: 1px dashed darkgray;
+}
+
+.content-2{
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: ghostwhite;
+    border-bottom: 1px dashed darkgray;
+}
+
+.content-3{
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: white;
+}
+/* section div title */
+.div-title{
+    padding:10px;
+    margin-bottom:10px;
+    border:1px dashed #244B5C;
+    border-radius: 6px;
+    background-color: lightgoldenrodyellow;
+}
+.div-title ul{
+    list-style-type:none;
+}
+.div-title ul li{
+    padding:5px;
+    color:#529EB9;
+}
+.div-title ul li:first-child{
+    font-family: MB;
+    font-size:20pt;
+}
+.div-title ul li:nth-child(2){
+    font-family: MR;
+    padding-left:60px;
+    color:#365B77;
+    font-size:12pt;
+}
+.div-title ul li:nth-child(3){
+    padding-left:60px;
+    padding-bottom:10px;
+}
+.div-title ul li:nth-child(3) a{
+    text-decoration: none;
+    font-size:9pt;
+    padding:5px;
+    border-radius: 5px;
+    color:#6E899A;
+    transition: background-color .3s ease-in;
+}
+.div-title ul li:nth-child(3) a:hover {
+    color:snow;
+    background-color: #6E899A;
+    padding:5px;
+}
+
+/*  section div code  */
+.div-code{
+}
+.div-code > ul{
+    list-style-type: none;
+}
+.div-code > ul > li:nth-child(odd) {
+    padding:10px;
+    color:#365B77;
+    font-size:16pt;
+}
+.div-code > ul > li:nth-child(even){
+    padding-bottom:10px;
+}
+.div-code > ul > li:nth-child(odd) > ul {
+    list-style-type: none;
+}
+.div-code > ul > li:nth-child(odd) > ul li:first-child {
+    font-family: MN;
+    font-size:16pt;
+}
+.div-code > ul > li:nth-child(odd) > ul li:nth-child(2) {
+    font-family: MR;
+    color:#6E899A;
+    font-size:12pt;
+    padding-top:9px;
+    padding-left:82px;
+    padding-bottom:10px;
+}
+
+/* */
+.div-content{
+    background-color: beige;
+    padding:10px;
+    border:1px dashed gainsboro;
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}
+.img-rounded{
+    border-radius:6px
+}
+
+.textIndent{
+    text-indent:50px;
+}
+.textJustify{
+    text-align:justify;
+}
+.pad-bot10{
+    padding-bottom:10px;
+}
+.pad-top10{
+    padding-top:10px;
+}
+.line150{
+    line-height: 150%;
+}
+
+.subLogo{
+    float:left;
+    padding:10px;
+}
+.subLogoTitle{
+    float:left;
+    padding-top:38px;
+    padding-left:10px;
+    color:ghostwhite;
+    font-size:24px;
+}
+
+.text-white{
+    color:whitesmoke;
+}

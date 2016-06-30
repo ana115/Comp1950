@@ -1,0 +1,201 @@
+
+/* A00960170 JaeHoon Pang Assignment 6 */
+/* fonts */
+@font-face{
+    font-family: MN;
+    src: url(../../fonts/Montserrat-Regular.otf);
+}
+
+@font-face{
+    font-family: MB;
+    src: url(../../fonts/Montserrat-Bold.otf);
+}
+@font-face{
+    font-family: MR;
+    src: url(../../fonts/Montserrat-Hairline.otf);
+}
+
+/* html selecters */
+html, body{
+    font-family: MN;
+    font-size: 11pt;
+    color:black
+}
+html{
+    background: url(/students/jpang23/images/comeback_home.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:dimgrey;
+}
+
+body{
+    padding:8%;
+}
+
+.main{
+    margin:0 auto;
+}
+.main-inner{
+    border: 1px solid grey;
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(130,130,130,0.5);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(130,130,130,0.5);
+    box-shadow: 5px 5px 10px 0px rgba(130,130,130,0.5);
+}
+/*   html selecter  */
+/*                  */
+/**  footer         */
+
+
+section{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+section:first-child{
+    border-radius: 6px 6px 0px 0px;
+    background:darkred;
+    color:snow;
+}
+section:first-child ul{
+    list-style-type: none;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+section:first-child ul li:first-child{
+    font-family: MB;
+    font-size: 60pt;
+    text-shadow: 1px 1px 0px gray;
+}
+
+section:first-child ul li:nth-child(2){
+
+}
+section:first-child ul li:nth-child(3){
+    font-family: MN;
+    font-size: 34pt;
+    text-align: center;
+    color:darkgrey;
+}
+section:first-child ul li:nth-child(4){
+    font-family: MR;
+    font-size: 12pt;
+    text-align: center;
+    color:darkgrey;
+}
+
+section:nth-child(2){
+    border-top:5px solid #0B2634;
+    background-color:#16313F;
+    color:#435F6E;
+    border-radius: 0px 0px 6px 6px;
+}
+
+section .foo-top{
+    padding:2%;
+    text-align: center;
+}
+section .foo-top ul {
+    list-style-type: none;
+}
+section .foo-top > ul > li:first-child{
+    font-size:18pt;
+    color:#C0DAE7;
+}
+section .foo-top > ul > li:nth-child(2){
+    font-size:10pt;
+    color:#435F6E;
+    padding:10px;
+}
+
+section .foo-top > ul > li:nth-child(2) a{
+    text-decoration: none;
+    background-color:#0B2634;
+    border: 1px solid #435F6E;
+    border-radius: 5px;
+    padding:6px;
+    color:#597AC7;
+    transition: background-color .3s ease-in;
+}
+
+section .foo-top > ul > li:nth-child(2) a:hover{
+    text-decoration: none;
+    color:#0B2634;
+    background-color:#DCDCE2;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:6px;
+}
+
+/*   html selecter  */
+/*                  */
+/**  section         */
+section .foo-bottom{
+    color:#fff;
+    padding:2%;
+    text-align:center;
+}
+section .foo-bottom ul{
+    list-style-type: none;
+}
+section .foo-bottom ul li{
+    font-size:14pt;
+    color: #C0DAE7;
+}
+section .foo-bottom ul ul{
+
+}
+section .foo-bottom ul ul li{
+    display: inline;
+    padding: 5px;
+}
+section .foo-bottom ul ul li a{
+    text-decoration: none;
+    font-size:9pt;
+    padding:5px;
+    border-radius: 5px;
+    color:#6E899A;
+    transition: background-color .3s ease-in;
+}
+section .foo-bottom ul ul li a:hover{
+    color:snow;
+    background-color: #6E899A;
+    padding:5px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}
+.img-rounded{
+    border-radius:6px
+}
+.textIndent{
+    text-indent:50px;
+}
+.textJustify{
+    text-align:justify;
+}
+.pad-bot10{
+    padding-bottom:10px;
+}
+.pad-top10{
+    padding-top:10px;
+}
+.line150{
+    line-height: 150%;
+}
+
+footer{
+    padding-top:5px;
+    text-align: center;
+}
+
+.copyright{
+    font-size:11pt;
+    color:black;
+    text-shadow: 1px 1px 0px grey;
+}

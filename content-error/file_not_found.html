@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- A00960170 JaeHoon Pang Assignment 7 -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>[Assignment 7: Brandon Pang] File not Found - Error 400 </title>
+    <!-- reset css-->
+    <link rel="stylesheet" href="/students/jpang23/error/css/reset.css" >
+    <!-- layout -->
+    <link rel="stylesheet" href="/students/jpang23/error/css/style.css" media="screen">
+    <link rel="stylesheet" href="/students/jpang23/error/css/font-awesome.min.css"  media="screen">
+    <!-- animsition css -->
+    <link rel="stylesheet" href="/students/jpang23/error/css/animsition.min.css">
+    <!-- tooltipster css -->
+    <link rel="stylesheet" type="text/css" href="/students/jpang23/error/css/tooltipster.bundle.min.css" />
+
+    <!-- Jquerys -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/students/jpang23/error/js/tooltipster.bundle.min.js"></script>
+    <!-- animsition js -->
+    <script src="/students/jpang23/error/js/animsition.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- jQuery script -->
+    <script>
+        // transition page
+        $(document).ready(function() {
+            $('.animsition').animsition();
+        });
+
+        // tooltip
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+
+    </script>
+</head>
+<body class="animsition" data-animsition-in-class="fade-in-up"
+      data-animsition-out-class="fade-out-up">
+    <div class="main">
+        <div class="main-inner">
+            <section>
+                <ul>
+                    <li>OOPS!</li>
+                    <li><hr></li>
+                    <li>404 - Sorry page not found!</li>
+                    <li>It looks like that page no longer exists. Would you like to go to hompage instead?</li>
+                </ul>
+            </section>
+            <section>
+                <div class="foo-top">
+                    <ul>
+                        <li>Come back to HOME</li>
+                        <li>
+                            <a class="animsition-link" href="/students/jpang23/index.html">
+                                <i class="fa fa-undo fa-lg"></i> BACK TO HOME</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Footer Bottom -->
+                <div class="foo-bottom">
+                    <ul>
+                        <li>OTHER PROJECTS</li>
+                        <li>
+                            <ul>
+                                <li><a class="animsition-link" href="/students/jpang23/index.html">HOME</a></li>
+                                <li><a class="animsition-link" href="/students/jpang23/place_01.html">FAVORITE PLACE</a></li>
+                                <li><a class="animsition-link" href="/students/jpang23/homework4/index.html">LAYOUT ASSINGMENT</a></li>
+                                <li><a class="animsition-link" href="/students/jpang23/homework5/index.html">MEDIAQUERY ASSINGMENT</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="copyright">
+                Copyright &copy; 2016 Jaehoon Pang<br>
+                Last modified:
+                <!--#config timefmt="%B %d %Y, %R %p" -->
+                <!--#echo var="LAST_MODIFIED"-->
+            </div>
+
+        </footer>
+    </div>
+
+
+</body>
+</html>
