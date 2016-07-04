@@ -18,15 +18,11 @@
     <link rel="stylesheet" href="../content-stuff/css/animsition.min.css">
     <!-- tooltipster css -->
     <link rel="stylesheet" href="../content-stuff/css/tooltipster.bundle.min.css" />
-    <!-- zoomify css -->
-    <link rel="stylesheet" href="../content-stuff/css/zoomify.css">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../content-stuff/js/tooltipster.bundle.min.js"></script>
     <!-- animsition js -->
     <script type="text/javascript" src="../content-stuff/js/animsition.min.js"></script>
-    <!-- zoomify js -->
-    <script type="text/javascript" src="../content-stuff/js/zoomify.js"></script>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,11 +33,6 @@
         // transition page
         $(document).ready(function() {
             $('.animsition').animsition();
-            // zoomify
-            $('.zooming').zoomify({
-            duration: 800
-        });
-
         });
 
         // tooltip
@@ -66,13 +57,13 @@
     <header>
         <div class="logo-section">
             <div class="logo-left">
-                   <span class="fa-stack fa-2x">
-                      <i class="fa fa-square-o fa-stack-2x"></i>
-                      <i class="fa fa-lightbulb-o fa-stack-1x"></i>
-                    </span>
+               <span class="fa-stack fa-2x">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-certificate fa-stack-1x"></i>
+                </span>
             </div>
             <div class="logo-right">
-                <p> Group Project </p>
+                <p> COMP1950: Renewal </p>
             </div>
         </div>
 
@@ -105,10 +96,7 @@
             <div class="crumbs-left">
                 <ul>
                     <li>
-                        <span class="fa-stack fa-1x">
-                          <i class="fa fa-square-o fa-stack-2x"></i>
-                          <i class="fa fa-lightbulb-o fa-stack-1x"></i>
-                        </span>
+                        <span><i class="fa fa-map-signs fa-2x"></i></span>
                     </li>
                     <li>SITE-MAP</li>
                 </ul>
@@ -118,7 +106,9 @@
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li>|</li>
-                    <li><a href="#">SITEMAP</a></li>
+                    <li><a href="#">COLOR GUIDE</a></li>
+                    <li>|</li>
+                    <li><a href="#">SITE-MAP</a></li>
                 </ul>
             </div>
 
@@ -133,27 +123,22 @@
             <div class="div-title">
                 <ul>
                     <li><i class="fa fa-code fa-1x" aria-hidden="true"></i> COLOR GUIDE for bcitcomp.ca</li>
-                    <li>A flexible and extensible jQuery plugin for modern tooltips.
-                        Simple enough for everyone, powerful enough for everything.</li>
-                    <li>
-                        <a class="animsition-link" href="http://git.blivesta.com/animsition/" target="_blank" alt="">
-                            <i class="fa fa-share-square fa-lg" aria-hidden="true"></i> See MORE</a>
-                    </li>
                 </ul>
             </div>
-            <div class="div-code">
-                <ul>
-                    <li>
-                        <ul>
-                            <li>STEP 1: Load jQuery and include Tooltipster's files</li>
-                            <li>After you download Tooltipster, load jQuery and include
-                                Tooltipster's CSS and JavaScript files in your page.</li>
-                        </ul>
-                    </li>
-                    <li>
-
-                    </li>
-                </ul>
+            <div class="color-guide-container">
+                <div class="color-guide-left">
+                    <img class="img-responsive img-rounded" src="../content-stuff/images/Color-code.png" alt="">
+                </div>
+                <div class="color-guide-right">
+                    <ul>
+                        <li>Content BG color: Ghost White</li>
+                        <li>Content sub color & text color: Dim Gray</li>
+                        <li>Introduce main color: Blue Stone</li>
+                        <li>Prototype main color: Fire Bush</li>
+                        <li>Site-map main color: Mojo</li>
+                        <li>Rationale main color: Smalt Blue</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -162,11 +147,10 @@
             <div class="div-title">
                 <ul>
                     <li><i class="fa fa-code fa-1x" aria-hidden="true"></i> SITE-MAP</li>
-                    <li>A flexible and extensible jQuery plugin for modern tooltips.
-                        Simple enough for everyone, powerful enough for everything.</li>
+
                 </ul>
             </div>
-            <div class="div-sitemap"><img class="img-responsive img-rounded zooming" src="../content-stuff/images/sitemap.png" alt=""></div>
+            <div class="div-sitemap"><img class="img-responsive img-rounded" src="../content-stuff/images/sitemap.png" alt=""></div>
         </section>
     </main>
     <!-- /Main  -->
