@@ -18,11 +18,15 @@
     <link rel="stylesheet" href="../content-stuff/css/animsition.min.css">
     <!-- tooltipster css -->
     <link rel="stylesheet" href="../content-stuff/css/tooltipster.bundle.min.css" />
+    <!-- zoomify css -->
+    <link rel="stylesheet" href="../content-stuff/css/zoomify.css">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../content-stuff/js/tooltipster.bundle.min.js"></script>
     <!-- animsition js -->
     <script type="text/javascript" src="../content-stuff/js/animsition.min.js"></script>
+    <!-- zoomify js -->
+    <script type="text/javascript" src="../content-stuff/js/zoomify.js"></script>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,6 +37,11 @@
         // transition page
         $(document).ready(function() {
             $('.animsition').animsition();
+            // zoomify
+            $('.zooming').zoomify({
+            duration: 800
+        });
+
         });
 
         // tooltip
@@ -157,7 +166,7 @@
                         Simple enough for everyone, powerful enough for everything.</li>
                 </ul>
             </div>
-            <div class="div-sitemap"><img class="img-responsive img-rounded" src="../content-stuff/images/sitemap.png" alt=""></div>
+            <div class="div-sitemap"><img class="img-responsive img-rounded zooming" src="../content-stuff/images/sitemap.png" alt=""></div>
         </section>
     </main>
     <!-- /Main  -->
