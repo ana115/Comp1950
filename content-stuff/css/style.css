@@ -227,9 +227,8 @@ footer .foo-top > ul > li:last-child{
     display: inline;
 }
 .crumbs-left ul > li:last-child{
-    font-size:12pt;
+    font-size:20pt;
 }
-
 .crumbs-right{
     float:right;
     right:0px;
@@ -715,4 +714,16 @@ footer .foo-top > ul > li:last-child{
     background-color: whitesmoke;
     border:1px solid gray;
     border-radius: 6px;
+}
+
+.color-guide-container{
+    width:90%;
+}
+.color-guide-left{
+    float:left;
+    width:45%;
+}
+.color-guide-right{
+    float:left;
+    width:45%;
 }
