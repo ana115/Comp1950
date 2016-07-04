@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<!-- Comp1950 : group project Ana, Brandon, Wookeun -->
+<head>
+    <title>COMP1950 | Group Project</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../content-stuff/images/favicon.ico">
+    <!-- reset css-->
+    <link rel="stylesheet" href="../content-stuff/css/reset.css" >
+    <!-- layout -->
+    <link rel="stylesheet" href="../content-stuff/css/style.css" media="screen">
+    <link rel="stylesheet" href="../content-stuff/css/font-awesome.min.css"  media="screen">
+    <!-- animsition css -->
+    <link rel="stylesheet" href="../content-stuff/css/animsition.min.css">
+    <!-- tooltipster css -->
+    <link rel="stylesheet" href="../content-stuff/css/tooltipster.bundle.min.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../content-stuff/js/tooltipster.bundle.min.js"></script>
+    <!-- animsition js -->
+    <script type="text/javascript" src="../content-stuff/js/animsition.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- jQuery script -->
+    <script>
+        // transition page
+        $(document).ready(function() {
+            $('.animsition').animsition();
+        });
+
+        // tooltip
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+
+        // anchor animate
+        function scrollToAnchor(aid){
+            var aTag = $("#"+ aid);
+            $('html,body').animate({scrollTop: aTag.offset().top-80},'slow');
+        };
+    </script>
+</head>
+
+
+<body>
+<!-- animsition plugin init  -->
+<div class="animsition" data-animsition-in-class="fade-in-up"
+     data-animsition-out-class="fade-out-up">
+
+    <!-- Header  -->
+    <header>
+        <div class="logo-section">
+            <div class="logo-left">
+           <span class="fa-stack fa-2x">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-certificate fa-stack-1x"></i>
+            </span>
+            </div>
+            <div class="logo-right">
+                <p> COMP1950: Renewal </p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a onclick=""
+                       class="tooltip"
+                       title="Introduce team members."
+                       href="../Site-Introduce/introduce.html">Intro</a></li>
+                <li>
+                    <a onclick=""
+                       class="tooltip"
+                       title="Instance protypes."
+                       href="../Site-Prototype/prototype.html">Prototypes</a>
+                </li>
+                <li><a onclick=""
+                       class="tooltip"
+                       title="Site-Map for 'bcitcomp.ca'."
+                       href="../Site-Sitemap/sitemap.html">Site-map</a>
+                </li>
+                <li>
+                    <a class="tooltip"
+                       title="Recommend for renewal."
+                       href="../Site-Rationale/rationale.html">Rationale</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="breadcrumbs color-colwhite">
+            <div class="crumbs-left">
+                <ul>
+                    <li>
+                        <span> <i class="fa fa-bullhorn fa-2x"></i> </span>
+                    </li>
+                    <li>RATIONALE</li>
+                </ul>
+            </div>
+
+            <div class="crumbs-right">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li>|</li>
+                    <li><a href="#">RATIONALE</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <!-- Main  -->
+    <main>
+        <section class="services" id="services">
+            <div class="team-top">
+                <ul>
+                    <li>We Are Good In</li>
+                    <li>Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</li>
+                </ul>
+            </div>
+            <div class="team-member-out">
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-diamond"></i>
+                        <div class="service-detail">
+                            <h4>Strategy Solutions</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-screen-tablet"></i>
+                        <div class="service-detail">
+                            <h4>Digital Design</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-magnifier"></i>
+                        <div class="service-detail">
+                            <h4>SEO</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+            </div> <!-- end row -->
+
+            <div class="team-member-out">
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-rocket"></i>
+                        <div class="service-detail">
+                            <h4>Graphic Design</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-graph"></i>
+                        <div class="service-detail">
+                            <h4>Analystics</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-earphones-alt"></i>
+                        <div class="service-detail">
+                            <h4>Dedicated Support</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+            </div> <!-- end row -->
+
+            <div class="team-member-out">
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-basket"></i>
+                        <div class="service-detail">
+                            <h4>Truly Multipurpose</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-disc"></i>
+                        <div class="service-detail">
+                            <h4>Unlimited Colors</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+
+                <div class="team-member">
+                    <div class="service-item margin-b-md">
+                        <i class="icon-layers"></i>
+                        <div class="service-detail">
+                            <h4>Easy to customize</h4>
+                            <p>We put a lot of effort in design, as it’s the most important ingredient of successful website.Sed ut perspiciatis unde omnis iste natus error sit.</p>
+                        </div> <!-- /service-detail -->
+                    </div> <!-- /service-item margin-b-md -->
+                </div> <!-- /col -->
+            </div> <!-- end row -->
+
+        </section>
+    </main>
+    <!-- /Main  -->
+
+    <!-- Footer  -->
+    <footer>
+        <!-- Footer Top -->
+        <div class="foo-top">
+            <ul>
+                <li>PROTO-SITE : bcitcomp.ca</li>
+                <li>
+                    <ul>
+                        <li><a class="animsition-link" href="../Site-Introduce/introduce.html">INTRO</a></li>
+                        <li><a class="animsition-link" href="../Site-Prototype/prototype.html">PROTOTYPES</a></li>
+                        <li><a class="animsition-link" href="../Site-Sitemap/sitemap.html">SITE-MAP</a></li>
+                        <li><a class="animsition-link" href="../Site-Rationale/rationale.html">RATIONALE</a></li>
+                    </ul>
+                </li>
+                <li>COPYRIGHT &copy; 2016</li>
+            </ul>
+        </div>
+    </footer>
+    <!-- /Footer  -->
+</div>
+<!-- / Animstion init -->
+</body>
+</html>
