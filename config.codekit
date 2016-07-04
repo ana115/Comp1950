@@ -496,6 +496,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/content-stuff\/images\/sitemap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62017,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/sitemap.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/sitemap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/content-stuff\/images\/texture.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

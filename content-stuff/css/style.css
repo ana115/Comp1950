@@ -705,3 +705,14 @@ footer .foo-top > ul > li:last-child{
     padding-top:2px;
     padding-bottom:5px;
 }
+
+/* sitemap */
+/* --------------------------------*/
+.div-sitemap{
+    margin:auto;
+    width:90%;
+    padding:10px;
+    background-color: whitesmoke;
+    border:1px solid gray;
+    border-radius: 6px;
+}
