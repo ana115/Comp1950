@@ -660,8 +660,9 @@ footer .foo-top > ul > li:last-child{
     float:left;
     margin:auto;
     width:60%;
-    padding:5px;
-    border-
+    padding:10px;
+    border:1px solid gray;
+    border-radius: 6px;
     background: wheat;
 
     -webkit-box-sizing: border-box;
@@ -702,5 +703,5 @@ footer .foo-top > ul > li:last-child{
 .proto-right > ul > li > ul  ul{
     padding-left: 20px;
     padding-top:2px;
-    padding-bottom : 5px;
+    padding-bottom:5px;
 }
