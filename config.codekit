@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19120",
+"creatorBuild": "19115",
 "files": {
 	"\/content-error\/css\/animsition.css": {
 		"fileType": 16,
@@ -423,6 +423,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/content-stuff\/css\/zoomify.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content-stuff\/css\/zoomify.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/content-stuff\/dist\/jquery.fullpage.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -463,6 +472,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/content-stuff\/images\/anna-avatar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64442,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/anna-avatar.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/anna-avatar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/content-stuff\/images\/bcit-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -481,6 +501,39 @@
 		"initialSize": 81339,
 		"inputAbbreviatedPath": "\/content-stuff\/images\/bcit-logo-3.jpg",
 		"outputAbbreviatedPath": "\/content-stuff\/images\/bcit-logo-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content-stuff\/images\/Color-code.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107167,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/Color-code.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/Color-code.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content-stuff\/images\/Color-guide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20305,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/Color-guide.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/Color-guide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content-stuff\/images\/jaehoon-avatar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58625,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/jaehoon-avatar.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/jaehoon-avatar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -514,6 +567,17 @@
 		"initialSize": 529346,
 		"inputAbbreviatedPath": "\/content-stuff\/images\/texture.jpg",
 		"outputAbbreviatedPath": "\/content-stuff\/images\/texture.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/content-stuff\/images\/wookeun-avatar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67136,
+		"inputAbbreviatedPath": "\/content-stuff\/images\/wookeun-avatar.png",
+		"outputAbbreviatedPath": "\/content-stuff\/images\/wookeun-avatar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -606,6 +670,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/content-stuff\/js\/zoomify.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content-stuff\/js\/zoomify.js",
+		"outputAbbreviatedPath": "\/content-stuff\/js\/min\/zoomify-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -633,42 +708,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Site-Prototype\/type1\/prototype1.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Site-Prototype\/type1\/prototype1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Site-Prototype\/type2\/prototype2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Site-Prototype\/type2\/prototype2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Site-Prototype\/type3\/prototype3.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Site-Prototype\/type3\/prototype3.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Site-Prototype\/type4\/prototype4.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Site-Prototype\/type4\/prototype4.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/Site-Rationale\/rationale.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -687,13 +726,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wireframe\/About the course.png": {
+	"\/wireframe\/About.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 197907,
-		"inputAbbreviatedPath": "\/wireframe\/About the course.png",
-		"outputAbbreviatedPath": "\/wireframe\/About the course.png",
+		"inputAbbreviatedPath": "\/wireframe\/About.png",
+		"outputAbbreviatedPath": "\/wireframe\/About.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -705,6 +744,28 @@
 		"initialSize": 172590,
 		"inputAbbreviatedPath": "\/wireframe\/Home.png",
 		"outputAbbreviatedPath": "\/wireframe\/Home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wireframe\/New Mockup 1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76328,
+		"inputAbbreviatedPath": "\/wireframe\/New Mockup 1.png",
+		"outputAbbreviatedPath": "\/wireframe\/New Mockup 1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wireframe\/New Mockup 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36950,
+		"inputAbbreviatedPath": "\/wireframe\/New Mockup 2.png",
+		"outputAbbreviatedPath": "\/wireframe\/New Mockup 2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

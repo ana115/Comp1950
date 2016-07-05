@@ -1,12 +1,11 @@
 <!doctype html>
 <html>
-<!-- Comp1950 : group project Ana, Brandon, Wookeun -->
+<!-- Comp1950 : Group project with Ana Lopez, Brandon Pang, Wookeun Park  -->
 <head>
     <title>COMP1950 | Group Project</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-
+    <meta name="description" content="We recommended to renewal COMP1950 lecture site ">
+    <meta name="keyword" content="COMP1950, Final project, renewal">
     <!-- Favicon-->
     <link rel="shortcut icon" href="../content-stuff/images/favicon.ico">
     <!-- reset css-->
@@ -33,10 +32,6 @@
         // transition page
         $(document).ready(function() {
             $('.animsition').animsition();
-        });
-
-        // tooltip
-        $(document).ready(function() {
             $('.tooltip').tooltipster();
         });
 
@@ -51,48 +46,44 @@
 
 <body>
 <!-- animsition plugin init  -->
-<div class="animsition" data-animsition-in-class="fade-in-up"
-     data-animsition-out-class="fade-out-up">
-
+<div onclick="$(location).attr('href','../index.html')" class="animsition" data-animsition-in-class="fade-in-up" data-animsition-out-class="fade-out-up">
     <!-- Header  -->
     <header>
-        <div class="logo-section">
+        <div onclick="$(location).attr('href','../index.html')" class="logo-section">
             <div class="logo-left">
-           <span class="fa-stack fa-2x">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-certificate fa-stack-1x"></i>
-            </span>
+               <span class="fa-stack fa-2x">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-certificate fa-stack-1x"></i>
+                </span>
             </div>
             <div class="logo-right">
                 <p> COMP1950: Renewal </p>
             </div>
         </div>
-
         <nav>
             <ul>
-                <li><a onclick=""
-                       class="tooltip"
-                       title="Introduce team members."
-                       href="../Site-Introduce/introduce.html">Intro</a></li>
                 <li>
-                    <a onclick=""
-                       class="tooltip"
-                       title="Instance protypes."
-                       href="../Site-Prototype/prototype.html">Prototypes</a>
+                    <a class="tooltip"
+                       title="Introduce team members."
+                       href="../Site-Introduce/introduce.html">INTRODUCE</a>
                 </li>
-                <li><a onclick=""
-                       class="tooltip"
+                <li>
+                    <a class="tooltip"
+                       title="Instance protypes."
+                       href="../Site-Prototype/prototype.html">PROTOTYPES</a>
+                </li>
+                <li>
+                    <a class="tooltip"
                        title="Site-Map for 'bcitcomp.ca'."
-                       href="../Site-Sitemap/sitemap.html">Site-map</a>
+                       href="../Site-Sitemap/sitemap.html">SITE-MAP</a>
                 </li>
                 <li>
                     <a class="tooltip"
                        title="Recommend for renewal."
-                       href="../Site-Rationale/rationale.html">Rationale</a>
+                       href="../Site-Rationale/rationale.html">RATIONALE</a>
                 </li>
             </ul>
         </nav>
-
         <div class="breadcrumbs color-colwhite">
             <div class="crumbs-left">
                 <ul>
@@ -102,15 +93,11 @@
                     <li>RATIONALE</li>
                 </ul>
             </div>
-
             <div class="crumbs-right">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li>|</li>
                     <li><a href="#">RATIONALE</a></li>
                 </ul>
             </div>
-
         </div>
     </header>
     <!-- Main  -->
@@ -224,10 +211,9 @@
 
     <!-- Footer  -->
     <footer>
-        <!-- Footer Top -->
         <div class="foo-top">
             <ul>
-                <li>PROTO-SITE : bcitcomp.ca</li>
+                <li>PROTO-SITE: bcitcomp.ca</li>
                 <li>
                     <ul>
                         <li><a class="animsition-link" href="../Site-Introduce/introduce.html">INTRO</a></li>
@@ -236,7 +222,7 @@
                         <li><a class="animsition-link" href="../Site-Rationale/rationale.html">RATIONALE</a></li>
                     </ul>
                 </li>
-                <li>COPYRIGHT &copy; 2016</li>
+                <li>Ana Lopez, Brandon Pang, Wookeun Park COPYRIGHT &copy; 2016</li>
             </ul>
         </div>
     </footer>

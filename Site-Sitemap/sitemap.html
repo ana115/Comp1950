@@ -23,7 +23,10 @@
     <script type="text/javascript" src="../content-stuff/js/tooltipster.bundle.min.js"></script>
     <!-- animsition js -->
     <script type="text/javascript" src="../content-stuff/js/animsition.min.js"></script>
-
+    <!-- zoomify js -->
+    <script type="text/javascript" src="../content-stuff/js/zoomify.js"></script>
+    <!-- zoomify css -->
+    <link rel="stylesheet" href="../content-stuff/css/zoomify.css">
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -33,29 +36,25 @@
         // transition page
         $(document).ready(function() {
             $('.animsition').animsition();
-        });
-
-        // tooltip
-        $(document).ready(function() {
             $('.tooltip').tooltipster();
+            // zoomify
+            $('.zooming').zoomify({ duration: 200 });
         });
 
         // anchor animate
         function scrollToAnchor(aid){
             var aTag = $("#"+ aid);
-            $('html,body').animate({scrollTop: aTag.offset().top-80},'slow');
+            $('html,body').animate({scrollTop: aTag.offset().top-140},'slow');
         };
     </script>
 </head>
 
 <body>
 <!-- animsition plugin init  -->
-<div class="animsition" data-animsition-in-class="fade-in-up"
-     data-animsition-out-class="fade-out-up">
-
+<div class="animsition" data-animsition-in-class="fade-in-up" data-animsition-out-class="fade-out-up">
     <!-- Header  -->
     <header>
-        <div class="logo-section">
+        <div onclick="$(location).attr('href','../index.html')" class="logo-section">
             <div class="logo-left">
                <span class="fa-stack fa-2x">
                   <i class="fa fa-square-o fa-stack-2x"></i>
@@ -66,32 +65,30 @@
                 <p> COMP1950: Renewal </p>
             </div>
         </div>
-
         <nav>
             <ul>
-                <li><a onclick=""
-                       class="tooltip"
-                       title="Introduce team members."
-                       href="../Site-Introduce/introduce.html">Intro</a></li>
                 <li>
-                    <a onclick="scrollToAnchor('page1')"
-                       class="tooltip"
-                       title="Instance protypes."
-                       href="../Site-Prototype/prototype.html">Prototypes</a>
+                    <a class="tooltip"
+                       title="Introduce team members."
+                       href="../Site-Introduce/introduce.html">INTRODUCE</a>
                 </li>
-                <li><a onclick="scrollToAnchor('page2')"
-                       class="tooltip"
+                <li>
+                    <a class="tooltip"
+                       title="Instance protypes."
+                       href="../Site-Prototype/prototype.html">PROTOTYPES</a>
+                </li>
+                <li>
+                    <a class="tooltip"
                        title="Site-Map for 'bcitcomp.ca'."
-                       href="../Site-Sitemap/sitemap.html">Site-map</a>
+                       href="../Site-Sitemap/sitemap.html">SITE-MAP</a>
                 </li>
                 <li>
                     <a class="tooltip"
                        title="Recommend for renewal."
-                       href="../Site-Rationale/rationale.html">Rationale</a>
+                       href="../Site-Rationale/rationale.html">RATIONALE</a>
                 </li>
             </ul>
         </nav>
-
         <div class="breadcrumbs color-mojo">
             <div class="crumbs-left">
                 <ul>
@@ -104,25 +101,29 @@
 
             <div class="crumbs-right">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a onclick="scrollToAnchor('page1')" href="#">SITE-MAP</a></li>
                     <li>|</li>
-                    <li><a href="#">COLOR GUIDE</a></li>
-                    <li>|</li>
-                    <li><a href="#">SITE-MAP</a></li>
+                    <li><a onclick="scrollToAnchor('page2')" href="#">COLOR GUIDE</a></li>
                 </ul>
             </div>
 
         </div>
     </header>
-    <!-- /Header  -->
-
     <!-- Main  -->
     <main>
-        <!-- sitemap  -->
+        <section id="page1" class="content-1">
+            <div class="div-title">
+                <ul>
+                    <li><i class="fa fa-map-o fa-1x" aria-hidden="true"></i> SITE-MAP</li>
+                </ul>
+            </div>
+            <div class="div-sitemap"><img class="img-responsive zooming img-rounded" src="../content-stuff/images/sitemap.png" width="840px" alt=""></div>
+        </section>
+        <div style="clear:both; border-bottom:1px dashed darkgray"></div>
         <section id="page2" class="content-2">
             <div class="div-title">
                 <ul>
-                    <li><i class="fa fa-code fa-1x" aria-hidden="true"></i> COLOR GUIDE for bcitcomp.ca</li>
+                    <li><i class="fa fa-paint-brush fa-1x" aria-hidden="true"></i> COLOR GUIDE</li>
                 </ul>
             </div>
             <div class="color-guide-container">
@@ -131,27 +132,17 @@
                 </div>
                 <div class="color-guide-right">
                     <ul>
-                        <li>Content BG color: Ghost White</li>
-                        <li>Content sub color & text color: Dim Gray</li>
-                        <li>Introduce main color: Blue Stone</li>
-                        <li>Prototype main color: Fire Bush</li>
-                        <li>Site-map main color: Mojo</li>
-                        <li>Rationale main color: Smalt Blue</li>
+                        <li>BG Color: <span style="padding:2px; border:1px solid darkgray; background-color:#f8f8f8;">Ghost White</span></li>
+                        <li>Text Color: <span style="padding:2px; border:1px solid darkgray; background-color:#696969;">Dim Gray</span></li>
+                        <li>Introduce Color: <span style="padding:2px; border:1px solid darkgray; background-color:#435F6E;">Blue Stone</span></li>
+                        <li>Prototype Color: <span style="padding:2px; border:1px solid darkgray; background-color:#DB9E36;">Fire Bush</span></li>
+                        <li>Site-map Color: <span style="padding:2px; border:1px solid darkgray; background-color:#105B63;">Mojo</span></li>
+                        <li>Rationale Color: <span style="padding:2px; border:1px solid darkgray; background-color:#BD4932;">Smalt Blue</span></li>
                     </ul>
                 </div>
             </div>
         </section>
-
-        <!-- sitemap  -->
-        <section id="page2" class="content-2">
-            <div class="div-title">
-                <ul>
-                    <li><i class="fa fa-code fa-1x" aria-hidden="true"></i> SITE-MAP</li>
-
-                </ul>
-            </div>
-            <div class="div-sitemap"><img class="img-responsive img-rounded" src="../content-stuff/images/sitemap.png" alt=""></div>
-        </section>
+        <div style="clear:both; border-bottom:1px dashed darkgray"></div>
     </main>
     <!-- /Main  -->
 
@@ -160,7 +151,7 @@
         <!-- Footer Top -->
         <div class="foo-top">
             <ul>
-                <li>PROTO-SITE : bcitcomp.ca</li>
+                <li>PROTO-SITE: bcitcomp.ca</li>
                 <li>
                     <ul>
                         <li><a class="animsition-link" href="../Site-Introduce/introduce.html">INTRO</a></li>
@@ -169,7 +160,7 @@
                         <li><a class="animsition-link" href="../Site-Rationale/rationale.html">RATIONALE</a></li>
                     </ul>
                 </li>
-                <li>COPYRIGHT &copy; 2016</li>
+                <li>Ana Lopez, Brandon Pang, Wookeun Park COPYRIGHT &copy; 2016</li>
             </ul>
         </div>
     </footer>

@@ -1,12 +1,11 @@
 <!doctype html>
 <html>
-<!-- Comp1950 : group project Ana, Brandon, Wookeun -->
+<!-- Comp1950 : Group project with Ana Lopez, Brandon Pang, Wookeun Park  -->
 <head>
     <title>COMP1950 | Group Project</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keyword" content="">
-
+    <meta name="description" content="We recommended to renewal COMP1950 lecture site ">
+    <meta name="keyword" content="COMP1950, Final project, renewal">
     <!-- Favicon-->
     <link rel="shortcut icon" href="../content-stuff/images/favicon.ico">
     <!-- reset css-->
@@ -23,13 +22,10 @@
     <script type="text/javascript" src="../content-stuff/js/tooltipster.bundle.min.js"></script>
     <!-- animsition js -->
     <script type="text/javascript" src="../content-stuff/js/animsition.min.js"></script>
-
     <!-- zoomify js -->
     <script type="text/javascript" src="../content-stuff/js/zoomify.js"></script>
-
     <!-- zoomify css -->
     <link rel="stylesheet" href="../content-stuff/css/zoomify.css">
-
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,34 +36,25 @@
         // transition page
         $(document).ready(function() {
             $('.animsition').animsition();
-        });
-
-        // tooltip
-        $(document).ready(function() {
             $('.tooltip').tooltipster();
-
             // zoomify
-            $('.zooming').zoomify({
-            duration: 800
-        });
-
+            $('.zooming').zoomify({ duration: 200 });
         });
 
         // anchor animate
         function scrollToAnchor(aid){
             var aTag = $("#"+ aid);
-            $('html,body').animate({scrollTop: aTag.offset().top-80},'slow');
+            $('html,body').animate({scrollTop: aTag.offset().top-140},'slow');
         };
-        </script>
+    </script>
 </head>
 
 <body>
 <!-- animsition plugin init  -->
-<div class="animsition" data-animsition-in-class="fade-in-up"
-     data-animsition-out-class="fade-out-up">
+<div class="animsition" data-animsition-in-class="fade-in-up" data-animsition-out-class="fade-out-up">
     <!-- Header  -->
     <header>
-        <div class="logo-section">
+        <div onclick="$(location).attr('href','../index.html')" class="logo-section">
             <div class="logo-left">
                <span class="fa-stack fa-2x">
                   <i class="fa fa-square-o fa-stack-2x"></i>
@@ -78,40 +65,35 @@
                 <p> COMP1950: Renewal </p>
             </div>
         </div>
-
         <nav>
             <ul>
-                <li><a onclick=""
-                       class="tooltip"
-                       title="Introduce team members."
-                       href="../Site-Introduce/introduce.html">Intro</a></li>
                 <li>
-                    <a onclick=""
-                       class="tooltip"
-                       title="Instance protypes."
-                       href="../Site-Prototype/prototype.html">Prototypes</a>
+                    <a class="tooltip"
+                       title="Introduce team members."
+                       href="../Site-Introduce/introduce.html">INTRODUCE</a>
                 </li>
-                <li><a onclick=""
-                       class="tooltip"
+                <li>
+                    <a class="tooltip"
+                       title="Instance protypes."
+                       href="../Site-Prototype/prototype.html">PROTOTYPES</a>
+                </li>
+                <li>
+                    <a class="tooltip"
                        title="Site-Map for 'bcitcomp.ca'."
-                       href="../Site-Sitemap/sitemap.html">Site-map</a>
+                       href="../Site-Sitemap/sitemap.html">SITE-MAP</a>
                 </li>
                 <li>
                     <a class="tooltip"
                        title="Recommend for renewal."
-                       href="../Site-Rationale/rationale.html">Rationale</a>
+                       href="../Site-Rationale/rationale.html">RATIONALE</a>
                 </li>
             </ul>
         </nav>
-
         <div class="breadcrumbs color-fire">
             <div class="crumbs-left">
                 <ul>
                     <li>
-                        <span class="fa-stack fa-1x">
-                          <i class="fa fa-square-o fa-stack-2x"></i>
-                          <i class="fa fa-lightbulb-o fa-stack-1x"></i>
-                        </span>
+                        <span><i class="fa fa-file-image-o fa-2x"></i></span>
                     </li>
                     <li>PROTOTYPES</li>
                 </ul>
@@ -119,23 +101,26 @@
 
             <div class="crumbs-right">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a onclick="scrollToAnchor('page1')" href="#">PROTOTYPE #1</a></li>
                     <li>|</li>
-                    <li><a href="#">PROTOTYPES</a></li>
+                    <li><a onclick="scrollToAnchor('page2')" href="#">PROTOTYPE #2</a></li>
+                    <li>|</li>
+                    <li><a onclick="scrollToAnchor('page3')" href="#">PROTOTYPE #3</a></li>
+                    <li>|</li>
+                    <li><a onclick="scrollToAnchor('page4')" href="#">PROTOTYPE #4</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <!-- /Header  -->
-
     <!-- Main  -->
     <main>
-        <section class="protoContent">
+        <section class="protoContent" id="page1">
             <div class="proto-top">
-                <h2>HOME : Bcitcomp.ca</h2>
-                <p>asdfasdf</p>
+                <h2>Prototype #1 - Home</h2>
             </div>
-            <div class="proto-left"><img  class="img-responsive zooming img-rounded" width="100%" src="../wireframe/Home.png"></div>
+            <div class="proto-left">
+                <img  class="img-responsive zooming img-rounded" width="100%" src="../wireframe/Home.png"></div>
             <div class="proto-right">
                 <ul>
                     <li>Visual Appeal</li>
@@ -155,15 +140,38 @@
                 </ul>
             </div>
         </section>
-
-        <div style="clear:both"></div>
-
-        <section class="protoContent">
+        <div style="clear:both; height:2px; border-bottom:1px dashed darkgray"></div>
+        <section class="protoContent color-alternate" id="page2">
             <div class="proto-top">
-                <h2>HOME : Bcitcomp.ca</h2>
-                <p>asdfasdf</p>
+                <h2>Prototype #2 - Course Information</h2>
+            </div>
+            <div class="proto-right">
+                <ul>
+                    <li>Visual Appeal</li>
+                    <li>Update</li>
+                    <li>
+                        <ul>
+                            <li>Refreshed the color scheme to add vitality</li>
+                            <li>Added visuals to demonstrate key content</li>
+                            <li>Fulfilled client request to implement CSS3 and JQuery features.</li>
+                            <ul>
+                                <li>Flip-text logo utilizes CSS3
+                                <li>Entire site designed with JQuery functionality</li>
+                            </ul>
+                            <li>Educational content presented in chunks</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
             <div class="proto-left"><img id="zooming" class="img-responsive zooming img-rounded" width="100%" src="../wireframe/About.png"></div>
+        </section>
+        <div style="clear:both; border-bottom:1px dashed darkgray"></div>
+        <section class="protoContent" id="page3">
+            <div class="proto-top">
+                <h2>Prototype #3 - Resources</h2>
+            </div>
+            <div class="proto-left">
+                <img  class="img-responsive zooming img-rounded" width="100%" src="../wireframe/New%20Mockup%201.png"></div>
             <div class="proto-right">
                 <ul>
                     <li>Visual Appeal</li>
@@ -183,17 +191,40 @@
                 </ul>
             </div>
         </section>
-
-
+        <div style="clear:both; border-bottom:1px dashed darkgray"></div>
+        <section class="protoContent color-alternate" id="page4">
+            <div class="proto-top">
+                <h2>Prototype #4 - Lectures</h2>
+            </div>
+            <div class="proto-right">
+                <ul>
+                    <li>Visual Appeal</li>
+                    <li>Update</li>
+                    <li>
+                        <ul>
+                            <li>Refreshed the color scheme to add vitality</li>
+                            <li>Added visuals to demonstrate key content</li>
+                            <li>Fulfilled client request to implement CSS3 and JQuery features.</li>
+                            <ul>
+                                <li>Flip-text logo utilizes CSS3
+                                <li>Entire site designed with JQuery functionality</li>
+                            </ul>
+                            <li>Educational content presented in chunks</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="proto-left"><img id="zooming" class="img-responsive zooming img-rounded" width="100%" src="../wireframe/New%20Mockup%202.png"></div>
+        </section>
+        <div style="clear:both; border-bottom:1px dashed darkgray"></div>
     </main>
     <!-- /Main  -->
 
     <!-- Footer  -->
     <footer>
-        <!-- Footer Top -->
         <div class="foo-top">
             <ul>
-                <li>PROTO-SITE : bcitcomp.ca</li>
+                <li>PROTO-SITE: bcitcomp.ca</li>
                 <li>
                     <ul>
                         <li><a class="animsition-link" href="../Site-Introduce/introduce.html">INTRO</a></li>
@@ -202,7 +233,7 @@
                         <li><a class="animsition-link" href="../Site-Rationale/rationale.html">RATIONALE</a></li>
                     </ul>
                 </li>
-                <li>COPYRIGHT &copy; 2016</li>
+                <li>Ana Lopez, Brandon Pang, Wookeun Park COPYRIGHT &copy; 2016</li>
             </ul>
         </div>
     </footer>
