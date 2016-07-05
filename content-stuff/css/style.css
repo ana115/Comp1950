@@ -550,31 +550,6 @@ footer .foo-top > ul > li:last-child{
     margin-bottom:10px;
 }
 
-/* img class */
-.img-responsive {
-    display: block;
-    max-width: 100%;
-}
-.img-rounded{
-    border-radius:6px
-}
-
-/* text class */
-.textIndent{
-    text-indent:50px;
-}
-.textJustify{
-    text-align:justify;
-}
-.pad-bot10{
-    padding-bottom:10px;
-}
-.pad-top10{
-    padding-top:10px;
-}
-.line150{
-    line-height: 150%;
-}
 
 .subLogo{
     float:left;
@@ -608,32 +583,6 @@ footer .foo-top > ul > li:last-child{
     margin-bottom: 80px;
 }
 
-/* ------------------------- */
-/* Color Classes             */
-/* ------------------------- */
-.text-white{
-    color:whitesmoke;
-}
-
-.color-mojo{
-    background-color: #BD4932;
-}
-.color-fire {
-    background-color: #DB9E36;
-}
-.color-sunglow{
-    background-color: #FFD34E;
-}
-.color-colwhite{
-    background-color: #435F6E;
-}
-.color-bluestone{
-    background-color: #105B63;
-}
-.color-alternate{
-    background-color: whitesmoke;
-}
-
 /* Services
 ----------------------------------------------------------------------------- */
 .service-item i {
@@ -656,7 +605,6 @@ footer .foo-top > ul > li:last-child{
     font-family: MT;
     font-size:11pt;
 }
-
 /* ProtoContent
 ----------------------------------------------------------------------------- */
 .protoContent{
@@ -770,4 +718,50 @@ footer .foo-top > ul > li:last-child{
     font-size: 12pt;
     font-family: MT;
     padding:5px;
+}
+/* ------------------------- */
+/* UTILS                     */
+/* ------------------------- */
+.text-white{
+    color:whitesmoke;
+}
+.color-mojo{
+    background-color: #BD4932;
+}
+.color-fire {
+    background-color: #DB9E36;
+}
+.color-sunglow{
+    background-color: #FFD34E;
+}
+.color-colwhite{
+    background-color: #435F6E;
+}
+.color-bluestone{
+    background-color: #105B63;
+}
+.color-alternate{
+    background-color: whitesmoke;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}
+.img-rounded{
+    border-radius:6px
+}
+.textIndent{
+    text-indent:30px;
+}
+.textJustify{
+    text-align:justify;
+}
+.pad-bot10{
+    padding-bottom:10px;
+}
+.pad-top10{
+    padding-top:10px;
+}
+.line150{
+    line-height: 150%;
 }
