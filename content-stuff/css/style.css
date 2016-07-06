@@ -549,8 +549,6 @@ footer .foo-top > ul > li:last-child{
     border-radius: 6px;
     margin-bottom:10px;
 }
-
-
 .subLogo{
     float:left;
     padding:10px;
@@ -596,14 +594,16 @@ footer .foo-top > ul > li:last-child{
 }
 .service-item .service-detail h4 {
     font-family: MB;
+    font-size:14pt;
     background-color: antiquewhite;
     border: 1px dashed gainsboro;
     padding:4px;
 }
 .service-item .service-detail p {
-    color: #9aa7af;
+    color: grey;
+    padding-top:8px;
     font-family: MT;
-    font-size:11pt;
+    font-size:10pt;
 }
 /* ProtoContent
 ----------------------------------------------------------------------------- */
@@ -665,6 +665,8 @@ footer .foo-top > ul > li:last-child{
     font-family:MT;
 }
 .proto-right > ul > li > ul  ul{
+    font-family:MR;
+    font-size:9pt;
     padding-left: 20px;
     padding-top:2px;
     padding-bottom:5px;
